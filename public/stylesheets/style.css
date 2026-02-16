@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+main .container { max-width: 900px; }
+h1 { font-weight: 700; }
+footer { font-size: 0.8em; color: #888; margin-top: 4em; border-top: 1px solid #ddd; padding-top: 2em; }
