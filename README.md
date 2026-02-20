@@ -1,6 +1,6 @@
-# Assignment 01 — Portfolio
+# Mariam Mueen — Portfolio and Projects
 
-Welcome to my personal projects portfolio built with **Node.js**, **Express**, and **Handlebars (HBS)**. 
+Welcome to my personal projects portfolio, built with **Node.js**, **Express**, and **Handlebars (HBS)**. 
 Deployed to **Azure**.
 
 ## Live Site
