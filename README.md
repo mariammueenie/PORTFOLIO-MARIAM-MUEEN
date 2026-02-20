@@ -4,7 +4,7 @@ Welcome to my personal projects portfolio built with **Node.js**, **Express**, a
 Deployed to **Azure**.
 
 ## Live Site
-- URL: (https://mmueen-portfolio.azurewebsites.net/)
+- URL: **https://mmueen-portfolio.azurewebsites.net/**
 
 ## Tech Used
 - Express (router + HBS views)
