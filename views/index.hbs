@@ -1,6 +1,209 @@
-{{!-- <h1>{{Portfolio - Mariam Mueen}}</h1> --}}
-{{!-- <p class="lead">Welcome to my wonderful {{title}}</p> --}}
 
-<h1 class="mb-3">{{title}}</h1>
-<h3 class="mb-3">Mariam Mueen</h3>
-<p class="lead">Welcome to my wonderful Portfolio.</p>
+<!-- Portfolio Home Page -->
+<section class="p-4 p-md-5 rounded-4 hero-surface mb-4">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+            <p class="text-uppercase text-muted small mb-2">Software Developer • Student</p>
+            <h1 class="display-6 fw-semibold mb-3">
+                Mariam Mueen
+            </h1>
+            <p class="lead text-muted mb-4">
+                I build clean, deployable apps across full-stack web, cloud, and systems programming.
+                Focus: readable code, solid data modeling, and practical delivery.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-dark" href="/projects">View Projects</a>
+                <a class="btn btn-outline-dark" href="/contact">Contact</a>
+                <a class="btn btn-outline-secondary" href="https://github.com/mariammueenie" target="_blank"
+                    rel="noopener">GitHub</a>
+                <a class="btn btn-outline-secondary" href="https://www.linkedin.com/in/mariam-mueen-196877209/"
+                    target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+
+        {{!-- <div class="col-lg-5">
+            <div class="card border-0 shadow-sm rounded-4">
+                <div class="card-body">
+                    <h2 class="h6 text-muted mb-3">Currently building</h2>
+
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                        <div class="badge text-bg-dark rounded-pill">ASP.NET</div>
+                        <div>
+                            <div class="fw-semibold">Budgeting App</div>
+                            <div class="text-muted small">CRUD + SQL Server + Azure deployment</div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                        <div class="badge text-bg-dark rounded-pill">Node</div>
+                        <div>
+                            <div class="fw-semibold">Urdu Phrasebook</div>
+                            <div class="text-muted small">Express + MongoDB + multilingual UI patterns</div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="badge text-bg-dark rounded-pill">C++</div>
+                        <div>
+                            <div class="fw-semibold">Arcade System</div>
+                            <div class="text-muted small">Modular architecture + OOP + validation</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --}}
+
+<!-- QUICK STATS -->
+<section class="mb-4">
+    <div class="row g-3">
+        <div class="col-12 col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+                <div class="card-body">
+                    <div class="text-muted small">Core strengths</div>
+                    <div class="fw-semibold">Full-stack • Cloud • OOP</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+                <div class="card-body">
+                    <div class="text-muted small">Preferred stack</div>
+                    <div class="fw-semibold">Node/Express • ASP.NET • SQL/Mongo</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+                <div class="card-body">
+                    <div class="text-muted small">Delivery focus</div>
+                    <div class="fw-semibold">Readable code • Reliable CRUD • Deployable</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURED PROJECTS -->
+<section class="mb-4">
+    <div class="d-flex align-items-end justify-content-between mb-2">
+        <h2 class="h4 mb-0">Featured Projects</h2>
+        <a class="btn btn-sm btn-dark" href="/projects">See all</a>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 project-card">
+                <div class="card-body d-flex flex-column">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h6 mb-0">Budgeting App</h3>
+                        <span class="badge text-bg-dark">ASP.NET</span>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        Financial tracking app with SQL Server relational modeling and full CRUD.
+                    </p>
+                    <div class="mt-auto d-flex gap-2">
+                        <a class="btn btn-sm btn-dark"
+                            href="https://github.com/mariammueenie/COMP2084-ProjectRepo-BudgettingApp" target="_blank"
+                            rel="noopener">Code</a>
+                        <a class="btn btn-sm btn-outline-dark" href="/projects">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 project-card">
+                <div class="card-body d-flex flex-column">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h6 mb-0">Urdu Phrasebook</h3>
+                        <span class="badge text-bg-dark">Node</span>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        Express + MongoDB CRUD with multilingual UI considerations.
+                    </p>
+                    <div class="mt-auto d-flex gap-2">
+                        <a class="btn btn-sm btn-dark"
+                            href="https://github.com/mariammueenie/COMP2068-JS-Frameworks/tree/main/ASSIGNMENT02"
+                            target="_blank" rel="noopener">Code</a>
+                        <a class="btn btn-sm btn-outline-dark" href="/projects">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 project-card">
+                <div class="card-body d-flex flex-column">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h3 class="h6 mb-0">Arcade Game System</h3>
+                        <span class="badge text-bg-dark">C++</span>
+                    </div>
+                    <p class="text-muted small mb-3">
+                        Modular console arcade system with namespaces, headers, and robust validation.
+                    </p>
+                    <div class="mt-auto d-flex gap-2">
+                        <a class="btn btn-sm btn-dark" href="https://github.com/mariammueenie/COMP2006---C-"
+                            target="_blank" rel="noopener">Code</a>
+                        <a class="btn btn-sm btn-outline-dark" href="/projects">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="mb-4">
+    <h2 class="h4 mb-2">Skills</h2>
+    <div class="row g-3">
+        <div class="col-12 col-lg-6">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+                <div class="card-body">
+                    <h3 class="h6 text-muted">Backend / Data</h3>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge rounded-pill text-bg-light border">Node.js</span>
+                        <span class="badge rounded-pill text-bg-light border">Express</span>
+                        <span class="badge rounded-pill text-bg-light border">ASP.NET Core MVC</span>
+                        <span class="badge rounded-pill text-bg-light border">Entity Framework</span>
+                        <span class="badge rounded-pill text-bg-light border">SQL Server</span>
+                        <span class="badge rounded-pill text-bg-light border">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+                <div class="card-body">
+                    <h3 class="h6 text-muted">Tools / Cloud</h3>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge rounded-pill text-bg-light border">GitHub</span>
+                        <span class="badge rounded-pill text-bg-light border">Git</span>
+                        <span class="badge rounded-pill text-bg-light border">Azure App Service</span>
+                        <span class="badge rounded-pill text-bg-light border">CI/CD</span>
+                        <span class="badge rounded-pill text-bg-light border">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="p-4 p-md-5 rounded-4 cta-surface">
+    <div class="row align-items-center g-3">
+        <div class="col-lg-8">
+            <h2 class="h4 mb-1">Open to co-op / internship roles</h2>
+            <p class="text-muted mb-0">
+                Interested in backend/full-stack work, cloud deployment, and practical product builds.
+            </p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+            <a class="btn btn-dark" href="/contact">Get in touch</a>
+        </div>
+    </div>
+</section>
