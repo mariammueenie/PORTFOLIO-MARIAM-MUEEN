@@ -11,3 +11,35 @@ body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-seri
 main .container { max-width: 900px; }
 h1 { font-weight: 700; }
 footer { font-size: 0.8em; color: #888; margin-top: 4em; border-top: 1px solid #ddd; padding-top: 2em; }
+
+/* Projects: styling */
+  .project-card {
+    border-radius: 16px;
+  }
+
+  .project-card .card-title {
+    letter-spacing: 0.2px;
+  }
+
+  .project-card:hover {
+    transform: translateY(-3px);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+  }
+
+  /*Index / Home Page Styling */
+  .hero-surface {
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .cta-surface {
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .project-card:hover {
+    transform: translateY(-3px);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+  }
